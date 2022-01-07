@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+ 
 }
-
+.h2.title {
+  font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+  text-align: left;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 3.5vw;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,7 +21,7 @@
   }
 }
 
-.App-header {
+.table table-dark table-striped {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,9 +32,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
