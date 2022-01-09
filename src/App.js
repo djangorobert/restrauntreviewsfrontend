@@ -9,7 +9,7 @@ class App extends Component {
 
   async componentDidMount() {
     try {
-      const res = await fetch('https://restrauntapi.herokuapp.com/');
+      const res = await fetch('http://www.uateit.com/reviews/');
       const reviews = await res.json();
       this.setState({
         reviews
