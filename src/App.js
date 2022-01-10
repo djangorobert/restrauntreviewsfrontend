@@ -25,10 +25,7 @@ class App extends Component {
 
 
       <div class="container">
-        <Helmet>
-          <title>Uateit</title>
-          <meta name="description" content="Helmet application" />
-        </Helmet>
+
         <h2 class="title">Restraunt Reviews by: Uateit app<img src={icons8} alt="logo" /> <img src={hamburger} /></h2>
 
         <table class="table table-dark table-striped">
