@@ -31,7 +31,7 @@ class App extends Component {
 
         <h2 class="title">Restraunt Reviews by: Uateit app<img src={icons8} alt="logo" /> <img src={hamburger} /></h2>
 
-        <table class="table table-dark table-striped">
+        <table id="custom">
 
           <thead>
             <tr>
