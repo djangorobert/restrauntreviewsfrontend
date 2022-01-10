@@ -5,6 +5,7 @@ import hamburger from './hamburger.png';
 class App extends Component {
   state = {
     reviews: []
+
   };
 
   async componentDidMount() {
@@ -24,7 +25,11 @@ class App extends Component {
 
 
       <div class="container">
-        <h2 class="title">Restraunt Reviews by: ReviewMe App <img src={icons8} alt="logo" /> <img src={hamburger} /></h2>
+        <Helmet>
+          <title>Uateit</title>
+          <meta name="description" content="Helmet application" />
+        </Helmet>
+        <h2 class="title">Restraunt Reviews by: Uateit app<img src={icons8} alt="logo" /> <img src={hamburger} /></h2>
 
         <table class="table table-dark table-striped">
 
