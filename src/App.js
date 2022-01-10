@@ -12,6 +12,7 @@ class App extends Component {
     try {
       const res = await fetch('https://www.uateit.com/reviews/');
       const reviews = await res.json();
+      document.title = "Uateit";
       this.setState({
         reviews
       });
@@ -19,6 +20,8 @@ class App extends Component {
       console.log(e);
     }
   }
+
+
 
   render() {
     return (
