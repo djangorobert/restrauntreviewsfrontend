@@ -13,7 +13,7 @@ Feel free to go look at the Backend Django Rest API here:https://www.uateit.com/
 
 I currently have this Frontend SPA site live at: https://restrauntapi.herokuapp.com/
 Feel free to go look.I am using Heroku Cloud Platform (Paas).
-To use Heroku Clout Platform you can use there Heroku CLI you can download it with Windows or Apple the command with npm is: npm install -g heroku.
+To use Heroku Cloud Platform you can use there Heroku CLI you can download it with Windows or Apple the command with npm is: npm install -g heroku.
 To verify you installed it do this: heroku --version
 Then can login to your account with this command: heroku login
 
